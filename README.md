@@ -1,22 +1,8 @@
-# Simple Solana Smart Contract Example
-
-This repository demonstrates how to create and invoke a program on the
-Solana blockchain. In Solana the word program is used to describe what
-is often described as a smart contract in other contexts.
-
-The Solana program provided here counts the number of times that it
-has been executed and stores that information on chain. It is
-functionally identical to Solana's hello world
-[example](https://github.com/solana-labs/example-helloworld).
-
-This program differs from the Solana example code in that the client
-which invokes the Solana program is written in Rust. Contrary to what
-you might guess the most complicated part of writing a smart contract
-in Solana is the client.
+# Cargo Solana Smart Contract
 
 ## Getting started
 
-In order to run this example program you will need to install Rust and
+In order to run this program you will need to install Rust and
 Solana. Information about installing Rust can be found
 [here](https://rustup.rs/) and information about installing Solana can
 be found [here](https://docs.solana.com/cli/install-solana-cli-tools).
